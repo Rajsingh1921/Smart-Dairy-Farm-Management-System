@@ -1,0 +1,19 @@
+# Never upload secrets or local data to Vercel.
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+server/uploads
+server/backups
+*.log
+.DS_Store
+# Rebuilt on Vercel.
+node_modules
+**/node_modules
+client/dist
+server/test
+
+# Local database connection details (never upload)
+DATABASE-CONNECTION.txt
+*.pem

@@ -1,0 +1,23 @@
+{
+  "name": "smart-dairy-farm-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Smart Dairy Farm Manager - full-stack dairy farm management (React + Express + MySQL)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "postinstall": "npm --prefix server install && npm --prefix client install",
+    "setup": "npm --prefix server run setup",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "migrate": "npm --prefix server run migrate",
+    "create-owner": "npm --prefix server run create-owner",
+    "seed:demo": "npm --prefix server run seed:demo --",
+    "clear-data": "npm --prefix server run clear-data --",
+    "backup": "npm --prefix server run backup --",
+    "restore": "npm --prefix server run restore --",
+    "test": "npm --prefix server test"
+  }
+}

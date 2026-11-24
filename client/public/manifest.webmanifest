@@ -1,0 +1,16 @@
+{
+  "name": "RR Dairy Farm — Smart Dairy Farm Manager",
+  "short_name": "RR Dairy",
+  "description": "Milk, animals, customers and accounts for the farm.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f2e7",
+  "theme_color": "#1d5e2f",
+  "lang": "mr",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
